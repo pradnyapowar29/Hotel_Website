@@ -1,0 +1,184 @@
+/* *{
+    padding: 0;margin: 0;box-sizing: border-box;
+} */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+/* ----- navbar ----  */
+.bag {
+    background-color: purple;
+   
+}
+.btn-table{
+    border: solid white 2px;
+    color: white;
+    background-color: purple;
+    padding: 10px 14px;
+    border-radius: 27px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.btn-table:hover{
+    background-color: white;
+    color: purple;
+   
+}
+.nav-color{
+   
+    color: white;
+    font-weight: bold;
+}
+
+/* ----- home ----  */
+/* #home{
+    height: 100vh;
+} */
+#home a{
+    padding: 10px 14px; 
+    border: solid purple 2px; 
+    color: black;
+    border-radius: 27px; 
+    text-decoration: none;
+}
+#home a:hover{
+    background-color: purple;
+    color: white;
+}
+
+/* ----  titles -----  */
+h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.card-body p {
+    text-align: center;
+}
+
+/* ----  button -----  */
+.btn-custom{
+    background-color: purple;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 7px;
+    border: none;
+}
+.btn-custom:hover{
+    background-color: white;
+    border: solid  purple 2px;
+    color: black;
+}
+
+/* ---- contact ----  */
+.map{
+    
+}
+.cont span{
+    background-color: rgb(228, 226, 226);
+     padding: 45px 300px;
+}
+.cont span i{
+    left: 0;
+}
+footer{
+    height: 300px;
+}
+.nav-tabs1 {
+  border-bottom: 1px solid #dee2e6;
+}
+.nav-tabs1 .nav-link {
+  margin-bottom: -1px;
+  background: none;
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.nav-tabs1 .nav-link:hover, .nav-tabs1 .nav-link:focus {
+  border-color: #e9ecef #e9ecef #dee2e6;
+  isolation: isolate;
+}
+.nav-tabs1 .nav-link.disabled {
+  color: #6c757d;
+  background-color: transparent;
+  border-color: transparent;
+}
+.nav-tabs1 .nav-link.active,
+.nav-tabs1 .nav-item.show .nav-link {
+  color: #a020f0;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+.nav-tabs1 .dropdown-menu {
+  margin-top: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  }
+  .nav-link:hover, .nav-link:focus {
+    color:#a020f0;
+  }
+
+   /* ------ contact -----  */
+
+   #contact a{
+    text-decoration: none;
+    color: black;
+   }
+   .box{
+    box-sizing: border-box;
+    background-color:rgb(247, 244, 244) ;
+    padding: 15px;
+    
+   }
+   .box i{
+    border: 1px solid purple;
+    border-radius: 50%;
+    background-color: purple;
+    color: white;
+    padding: 15px;
+   }
+   footer{
+    background-color: rgb(50, 50, 50);
+   
+   }
+   footer i{
+    color: white;
+   }
+   footer div{
+    color: white;
+   }
+   footer div a{
+    color: white;
+    text-decoration: none;
+   }
+   footer .media i{
+    border: 1px solid rgb(116, 116, 116);
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+   }
+   footer .media i:hover{
+    border: 1px solid white;
+    cursor: pointer;
+   }
+   /* footer .copy{
+    text-align: center;
+   }
+    */
+  
